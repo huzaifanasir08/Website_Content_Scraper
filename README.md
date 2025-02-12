@@ -1,5 +1,5 @@
 # Website Content Scraper
-Scraping the content of any available website in a minimum time, using Crawl4AI a powerfull crawl tool used for web crawling. You can get different kinds of output by its build-in functions. For more info about its output formates visit: https://crawl4ai.com/mkdocs/
+Scrape the content of any available website in a minimum time, using Crawl4AI a powerfull crawl tool used for web crawling. You can get different kinds of output by its build-in functions. For more info about its output formates visit: https://crawl4ai.com/mkdocs/
 # Why it is Better?
 * Integration of Crawl4AI, a powerfull tool used of content scraping.
 * Content fetching of dynamic websites.
