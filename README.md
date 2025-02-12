@@ -12,7 +12,7 @@ Scraping the content of any available website in a minimum time, using Crawl4AI 
 * Make a vitual enviroment in project directory using command: python -m venv .enviroment_name
 * Activate the enviroment by using command: .enviroment_name\Scripts\activate
 * Install the requirements by using command: pip install -r req.txt
-* Modify the weblist under the application 'scraping_task' in the file 'task.py' at line 30
+* Modify 'webs' (list of websites) under the application 'scraping_task' in the file 'task.py' at line 30
 * Create superuser by using command: python manage.py createsuperuser
 * Run the server by using command: python manage.py runserver
 * Now go to: http://127.0.0.1:8000/admin
