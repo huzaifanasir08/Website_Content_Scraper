@@ -12,14 +12,10 @@ from datetime import datetime
 from crawl4ai import AsyncWebCrawler
 import os
 import upload_to_drive
-# from .models import FlightSchoolWebsNew, FlightSchoolWebsFetchedData, ScrapingStatus
 from asgiref.sync import sync_to_async
 from mysql.connector import Error
 import logging
 import sys
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 import io
 from django.db import connection, transaction, close_old_connections
 from django.db.utils import OperationalError
