@@ -9,7 +9,7 @@ Scraping the content of any available website in a minimum time, using Crawl4AI 
 # How to Use the Project?
 * Make sure you have installed python on your system or install it from: https://www.python.org/
 * Clone the repository.
-* Make a folder and in that folder make a vitual enviroment using command: python -m venv .enviroment_name
+* Make a vitual enviroment in project directory using command: python -m venv .enviroment_name
 * Activate the enviroment by using command: .enviroment_name\Scripts\activate
 * Install the requirements by using command: pip install -r req.txt
 * Modify the weblist under the application 'scraping_task' in the file 'task.py' at line 30
