@@ -8,15 +8,48 @@ For more info about its output formates visit: https://crawl4ai.com/mkdocs/
 * Modularized structure – Easy to extend and modify.
 * User-friendly – Simple setup and easy to understand.
 ## How to Use the Project?
-* Make sure you have installed python on your system or install it from: https://www.python.org/
-* Clone the repository.
-* Make a vitual enviroment in project directory using command: python -m venv .enviroment_name
-* Activate the enviroment by using command: .enviroment_name\Scripts\activate
-* Install the requirements by using command: pip install -r req.txt
-* Modify 'webs' (list of websites) under the application 'scraping_task' in the file 'task.py' at line 30
-* Create superuser by using command: python manage.py createsuperuser
-* Run the server by using command: python manage.py runserver
-* Now go to: http://127.0.0.1:8000/admin
-* Enter the username and password you just used during creating the superuser.
-* Make a new task and run the task.
-* Enjoy the power of crawl4AI
+### 1. Prerequisites
+Ensure Python is installed on your system. If not, download it from https://www.python.org/
+### 2. Installation Steps
+  #### 1. Clone the repository:
+```python
+git clone https://github.com/huzaifanasir08/Website_Content_Scraper.git
+cd Website_Content_Scraper
+```
+  #### 2. Create a virtual environment:
+```python
+python -m venv .venv
+```
+  #### 3. Activate the virtual environment:
+* On Windows:
+```python
+.venv\Scripts\activate
+```
+* On macOS/Linux::
+```python
+source .venv/bin/activate
+```
+  #### 4. Install dependencies:
+```python
+pip install -r requirements.txt
+```
+### 3. Configuration
+Modify the list of websites in the scraping_task/task.py file at line 30, under the webs variable.
+
+### 4. Running the Project
+  #### 1. Create a superuser:
+  ```python
+python manage.py createsuperuser
+```
+#### 2. Start the Django server:
+  ```python
+python manage.py runserver
+```
+#### 3. Open your browser and go to:
+  ```python
+http://127.0.0.1:8000/admin
+```
+#### 4. Log in using the credentials created in step 1.
+#### 5. Create and run a new scraping task.
+
+#### Enjoy the power of Crawl4AI! 🚀
