@@ -1,12 +1,13 @@
 # Website Content Scraper
-Scrape the content of any available website in a minimum time, using Crawl4AI a powerfull crawl tool used for web crawling. You can get different kinds of output by its build-in functions. For more info about its output formates visit: https://crawl4ai.com/mkdocs/
-# Why it is Better?
-* Integration of Crawl4AI, a powerfull tool used of content scraping.
-* Content fetching of dynamic websites.
-* Celery implimentation for better controll of task also for parallel way.
-* Significant modulization.
-* Easy to understand.
-# How to Use the Project?
+Scrape the content of any publicly available website in minimal time using Crawl4AI, a powerful crawling tool for web scraping. This tool enables various output formats through built-in functions.
+For more info about its output formates visit: https://crawl4ai.com/mkdocs/
+## Why it is Better?
+* Integration of Crawl4AI – A powerful tool for content scraping.
+* Supports dynamic websites – Fetch content even from JavaScript-rendered pages.
+* Celery implementation – Enables better task control and parallel execution.
+* Modularized structure – Easy to extend and modify.
+* User-friendly – Simple setup and easy to understand.
+## How to Use the Project?
 * Make sure you have installed python on your system or install it from: https://www.python.org/
 * Clone the repository.
 * Make a vitual enviroment in project directory using command: python -m venv .enviroment_name
