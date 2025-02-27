@@ -51,5 +51,46 @@ http://127.0.0.1:8000/admin
 ```
 #### 4. Log in using the credentials created in step 1.
 #### 5. Create and run a new scraping task.
-
 #### Enjoy the power of Crawl4AI! 🚀
+
+## Technologies Used
+
+- **Django** – Web framework
+- **AsyncWebCrawler (crawl4ai)** – Asynchronous web crawling
+- **Requests** – HTTP requests handling
+- **BeautifulSoup** – HTML parsing and data extraction
+- **Celery** (optional) – Background task handling
+- **Celery** (optional) – Background task handling
+- **PostgreSQL/MySQL** (optional) – Database support for storing data
+
+## Future Enhancements 🚀
+
+🔹 **Web-based Dashboard** for monitoring scraping results
+🔹 **Slack/Telegram Notifications** for real-time alerts
+🔹 **Multi-threaded Crawling** for improved performance
+🔹 **AI-Based Content Categorization** for the data
+🔹 **Elasticsearch Integration** for advanced search capabilities
+🔹 **Captcha Handling & Proxy Rotation** to avoid detection
+🔹 **Cloud Storage (AWS/GCP)** for scalable data management
+🔹 **REST API (Django DRF)** for external data access
+
+## Contribution Guidelines
+
+Contributions are welcome! To contribute:
+
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature-branch`)
+3. **Commit your changes** (`git commit -m "New feature added"`)
+4. **Push to GitHub** (`git push origin feature-branch`)
+5. **Create a Pull Request**
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. is licensed under the **MIT License**.
+
+---
+
+**🔗 GitHub Repo:** [Web Change Detector](https://github.com/huzaifanasir08/Website_Content_Scraper)
+
+
+
