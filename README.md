@@ -60,19 +60,18 @@ http://127.0.0.1:8000/admin
 - **Requests** – HTTP requests handling
 - **BeautifulSoup** – HTML parsing and data extraction
 - **Celery** (optional) – Background task handling
-- **Celery** (optional) – Background task handling
 - **PostgreSQL/MySQL** (optional) – Database support for storing data
 
 ## Future Enhancements 🚀
 
-🔹 **Web-based Dashboard** for monitoring scraping results
-🔹 **Slack/Telegram Notifications** for real-time alerts
-🔹 **Multi-threaded Crawling** for improved performance
-🔹 **AI-Based Content Categorization** for the data
-🔹 **Elasticsearch Integration** for advanced search capabilities
-🔹 **Captcha Handling & Proxy Rotation** to avoid detection
-🔹 **Cloud Storage (AWS/GCP)** for scalable data management
-🔹 **REST API (Django DRF)** for external data access
+🔹 **Web-based Dashboard** for monitoring scraping results\
+🔹 **Slack/Telegram Notifications** for real-time alerts\
+🔹 **Multi-threaded Crawling** for improved performance\
+🔹 **AI-Based Content Categorization** for the data\
+🔹 **Elasticsearch Integration** for advanced search capabilities\
+🔹 **Captcha Handling & Proxy Rotation** to avoid detection\
+🔹 **Cloud Storage (AWS/GCP)** for scalable data management\
+🔹 **REST API (Django DRF)** for external data access\
 
 ## Contribution Guidelines
 
@@ -90,7 +89,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-**🔗 GitHub Repo:** [Web Change Detector](https://github.com/huzaifanasir08/Website_Content_Scraper)
+**🔗 GitHub Repo:** [Website Content Scraper](https://github.com/huzaifanasir08/Website_Content_Scraper)
 
 
 
